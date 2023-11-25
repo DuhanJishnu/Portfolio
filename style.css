@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    font-size: 2em;
+    color: beige;
+    cursor: default;
+}
+.logo span {
+    color: #e8342a;
+}
+.navigation {
+    margin-left: -300px;
+}
+.navigation a {
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: .3s;
+}
+.navigation a:hover {
+    color: #e8342a;
+}
+.btn-talk {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 35px;
+    background: #e8342a;
+    border-radius: 10px;
+    border: 2px solid #e8342a;
+    font-weight: 500;
+    transition: .3s;
+}
+.btn-talk:hover {
+    color: #e8342a;
+    background: transparent;
+}
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('bg_3.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+}
+.content {
+    max-width: 500px;
+    color: beige;
+}
+.content h2 {
+    font-size: 3em;
+}
+.content h2 span {
+    color: #e8342a;
+}
+.content h4 {
+    font-size: 2em;
+}
+.content p {
+    padding: 10px 0 40px 0;
+}
+.btn-group a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 40px;
+    background: #e8342a;
+    border-radius: 10px;
+    border: 2px solid #e8342a;
+    font-weight: 500;
+    transition: .3s;
+}
+.btn-group a:hover:nth-child(1) {
+    color: #e8342a;
+    background: transparent;
+}
+.btn-group a:nth-child(2) {
+    color: #e8342a;
+    background: transparent;
+    margin-left: 30px;
+    padding: 10px 30px;
+}
+.btn-group a:hover:nth-child(2) {
+    color: #fff;
+    background: #e8342a;
+}
+.social-icons {
+    position: absolute;
+    bottom: 50px;
+}
+.social-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: #0a66c2;
+    border-radius: 50%;
+    margin-right: 22px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #fff;
+    outline: 2px solid #0a66c2;
+    transition: .3s;
+}
+.social-icons a:hover {
+    transform: translateY(-5px);
+}
+.social-icons a i {
+    color: #fff;
+}
+.division1 {
+    
+    background-size: cover; /* This will scale the image to cover the entire background */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Keep the image fixed while scrolling */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(roadmap\ \(3\).jpeg);
+    align-items: center;
+  }
+  .div1-content {
+    color: beige;
+    padding-top: 30px;
+    padding-left: 45px;
+    margin-right: 400px;
+    font-size: 15px;
+  }
+
+  .content_2 {
+    width: 800px;
+    text-align: center;
+    margin-right: 80px;
+  }
+  
+  .content_2:nth-child(odd) {
+    order: 1; /* Display on the left side for odd divisions */
+  }
+  
+  .content_2:nth-child(even) {
+    order: 2; /* Display on the right side for even divisions */
+  }
+  .imgC {
+    width: 300px;
+    border-radius: 50px;
+  }
+
+  
+  
