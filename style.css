@@ -134,7 +134,7 @@ header {
     height: 100vh; /* Full viewport height */
     display: flex;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    background: url(road.jpeg);
+    url(road.jpeg);
     align-items: center;
   }
   .div1-content {
